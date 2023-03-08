@@ -120,10 +120,29 @@ public class MainApp {
 			System.out.println("====================================================");
 
 			System.out.println();
+			
+			
+			System.out.println("Go Back To Menu Or Not [Y/N] :: ");
+			
+		   String s= scanner.next();
+		   
+		   
+		   if(s.equalsIgnoreCase("y")) {
+			   
+			   verfiedUser(atminterface, name);
 
-			verfiedUser(atminterface, name);
+				break;
+			   
+		   }else {
+			   
+			   System.out.println("THANKS FOR USING OUR APPLICATION");
 
-			break;
+				System.exit(0);
+			   
+		   }
+			
+
+			
 
 		case "2":
 			System.out.println("----------------------------------------------------");
@@ -138,9 +157,25 @@ public class MainApp {
 
 				System.out.println();
 
-				verfiedUser(atminterface, name);
+				System.out.println("Go Back To Menu Or Not [Y/N] :: ");
+				
+				   String s1= scanner.next();
+				   
+				   
+				   if(s1.equalsIgnoreCase("y")) {
+					   
+					   verfiedUser(atminterface, name);
 
-				break;
+						break;
+					   
+				   }else {
+					   
+					   System.out.println("THANKS FOR USING OUR APPLICATION");
+
+						System.exit(0);
+					   
+				   }
+					
 
 			} else {
 
@@ -155,10 +190,28 @@ public class MainApp {
 				atminterface.addBankTranscation("MYSELF", "Deposit", amount);
 
 				System.out.println();
+				
+				
 
-				verfiedUser(atminterface, name);
+				System.out.println("Go Back To Menu Or Not [Y/N] :: ");
+				
+				   String s2= scanner.next();
+				   
+				   
+				   if(s2.equalsIgnoreCase("y")) {
+					   
+					   verfiedUser(atminterface, name);
 
-				break;
+						break;
+					   
+				   }else {
+					   
+					   System.out.println("THANKS FOR USING OUR APPLICATION");
+
+						System.exit(0);
+					   
+				   }
+					;
 
 			}
 
@@ -183,9 +236,25 @@ public class MainApp {
 
 				System.out.println();
 
-				verfiedUser(atminterface, name);
+				System.out.println("Go Back To Menu Or Not [Y/N] :: ");
+				
+				   String s3= scanner.next();
+				   
+				   
+				   if(s3.equalsIgnoreCase("y")) {
+					   
+					   verfiedUser(atminterface, name);
 
-				break;
+						break;
+					   
+				   }else {
+					   
+					   System.out.println("THANKS FOR USING OUR APPLICATION");
+
+						System.exit(0);
+					   
+				   }
+					
 
 			} else {
 
@@ -196,11 +265,28 @@ public class MainApp {
 				System.out.println("----------------------------------------------------");
 
 				System.out.println();
+				
+				
 
-				verfiedUser(atminterface, name);
+				System.out.println("Go Back To Menu Or Not [Y/N] :: ");
+				
+				   String s4= scanner.next();
+				   
+				   
+				   if(s4.equalsIgnoreCase("y")) {
+					   
+					   verfiedUser(atminterface, name);
 
-				break;
+						break;
+					   
+				   }else {
+					   
+					   System.out.println("THANKS FOR USING OUR APPLICATION");
 
+						System.exit(0);
+					   
+				   }
+					
 			}
 
 		case "4":
@@ -242,9 +328,25 @@ public class MainApp {
 
 					System.out.println();
 
-					verfiedUser(atminterface, name);
+					System.out.println("Go Back To Menu Or Not [Y/N] :: ");
+					
+					   String s5= scanner.next();
+					   
+					   
+					   if(s5.equalsIgnoreCase("y")) {
+						   
+						   verfiedUser(atminterface, name);
 
-					break;
+							break;
+						   
+					   }else {
+						   
+						   System.out.println("THANKS FOR USING OUR APPLICATION");
+
+							System.exit(0);
+						   
+					   }
+						
 
 				} else {
 
@@ -256,9 +358,25 @@ public class MainApp {
 
 					System.out.println();
 
-					verfiedUser(atminterface, name);
+					System.out.println("Go Back To Menu Or Not [Y/N] :: ");
+					
+					   String s5= scanner.next();
+					   
+					   
+					   if(s5.equalsIgnoreCase("y")) {
+						   
+						   verfiedUser(atminterface, name);
 
-					break;
+							break;
+						   
+					   }else {
+						   
+						   System.out.println("THANKS FOR USING OUR APPLICATION");
+
+							System.exit(0);
+						   
+					   }
+						
 
 				}
 
@@ -271,11 +389,27 @@ public class MainApp {
 				System.out.println("----------------------------------------------------");
 
 				System.out.println();
+				
 
-				verfiedUser(atminterface, name);
+				System.out.println("Go Back To Menu Or Not [Y/N] :: ");
+				
+				   String s6= scanner.next();
+				   
+				   
+				   if(s6.equalsIgnoreCase("y")) {
+					   
+					   verfiedUser(atminterface, name);
 
-				break;
+						break;
+					   
+				   }else {
+					   
+					   System.out.println("THANKS FOR USING OUR APPLICATION");
 
+						System.exit(0);
+					   
+				   }
+					
 			}
 
 		case "5":
@@ -300,9 +434,25 @@ public class MainApp {
 
 			System.out.println();
 
-			verfiedUser(atminterface, name);
+			System.out.println("Go Back To Menu Or Not [Y/N] :: ");
+			
+			   String s8= scanner.next();
+			   
+			   
+			   if(s8.equalsIgnoreCase("y")) {
+				   
+				   verfiedUser(atminterface, name);
 
-			break;
+					break;
+				   
+			   }else {
+				   
+				   System.out.println("THANKS FOR USING OUR APPLICATION");
+
+					System.exit(0);
+				   
+			   }
+				
 
 		case "6":
 			System.out.println("THANKS FOR USING OUR APPLICATION");
